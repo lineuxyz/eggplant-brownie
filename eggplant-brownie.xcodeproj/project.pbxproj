@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA06FD0F244BDEF700BC5E1B /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06FD0E244BDEF700BC5E1B /* RemoveRefeicaoViewController.swift */; };
+		DA2D83F2244C7E57002374A4 /* RefeicaoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D83F1244C7E57002374A4 /* RefeicaoDao.swift */; };
+		DA2D83F4244C8A29002374A4 /* ItemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D83F3244C8A29002374A4 /* ItemDao.swift */; };
+		DA3CC4FB2449C45500B36C8A /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3CC4FA2449C44B00B36C8A /* Refeicao.swift */; };
+		DA3CC4FD2449C6C000B36C8A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3CC4FC2449C6C000B36C8A /* Item.swift */; };
+		DA3CC5422449F78500B36C8A /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3CC5412449F78500B36C8A /* RefeicoesTableViewController.swift */; };
+		DA603E34244B2A89006942A2 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA603E32244B2A88006942A2 /* AdicionarItensViewController.swift */; };
+		DA603E35244B2A8A006942A2 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA603E33244B2A88006942A2 /* AdicionarItensViewController.xib */; };
+		DA603E37244BA072006942A2 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA603E36244BA072006942A2 /* Alerta.swift */; };
 		DA8A9E1624486B7C001D1E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A9E1524486B7C001D1E16 /* AppDelegate.swift */; };
 		DA8A9E1824486B7C001D1E16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A9E1724486B7C001D1E16 /* SceneDelegate.swift */; };
 		DA8A9E1A24486B7C001D1E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A9E1924486B7C001D1E16 /* ViewController.swift */; };
@@ -16,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA06FD0E244BDEF700BC5E1B /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
+		DA2D83F1244C7E57002374A4 /* RefeicaoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicaoDao.swift; sourceTree = "<group>"; };
+		DA2D83F3244C8A29002374A4 /* ItemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDao.swift; sourceTree = "<group>"; };
+		DA3CC4FA2449C44B00B36C8A /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		DA3CC4FC2449C6C000B36C8A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DA3CC5412449F78500B36C8A /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
+		DA603E32244B2A88006942A2 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		DA603E33244B2A88006942A2 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
+		DA603E36244BA072006942A2 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
 		DA8A9E1224486B7C001D1E16 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8A9E1524486B7C001D1E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8A9E1724486B7C001D1E16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,7 @@
 		DA8A9E1E24486BAC001D1E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA8A9E2124486BAC001D1E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA8A9E2324486BAC001D1E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8A9E2924488B2F001D1E16 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +56,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA3CC4FE2449C8B800B36C8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA3CC4FA2449C44B00B36C8A /* Refeicao.swift */,
+				DA3CC4FC2449C6C000B36C8A /* Item.swift */,
+				DA603E36244BA072006942A2 /* Alerta.swift */,
+				DA2D83F1244C7E57002374A4 /* RefeicaoDao.swift */,
+				DA2D83F3244C8A29002374A4 /* ItemDao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA3CC4FF2449C8E900B36C8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA8A9E1924486B7C001D1E16 /* ViewController.swift */,
+				DA3CC5412449F78500B36C8A /* RefeicoesTableViewController.swift */,
+				DA603E32244B2A88006942A2 /* AdicionarItensViewController.swift */,
+				DA06FD0E244BDEF700BC5E1B /* RemoveRefeicaoViewController.swift */,
+			);
+			name = Controllers;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DA3CC5002449C92500B36C8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA8A9E1B24486B7D001D1E16 /* Main.storyboard */,
+				DA603E33244B2A88006942A2 /* AdicionarItensViewController.xib */,
+			);
+			name = Views;
+			path = "eggplant-brownie/New Group1";
+			sourceTree = SOURCE_ROOT;
+		};
 		DA8A9E0924486B7B001D1E16 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +111,11 @@
 			children = (
 				DA8A9E1524486B7C001D1E16 /* AppDelegate.swift */,
 				DA8A9E1724486B7C001D1E16 /* SceneDelegate.swift */,
-				DA8A9E1924486B7C001D1E16 /* ViewController.swift */,
-				DA8A9E1B24486B7D001D1E16 /* Main.storyboard */,
+				DA3CC4FE2449C8B800B36C8A /* Models */,
+				DA3CC5002449C92500B36C8A /* Views */,
+				DA3CC4FF2449C8E900B36C8A /* Controllers */,
 				DA8A9E1E24486BAC001D1E16 /* Assets.xcassets */,
+				DA8A9E2924488B2F001D1E16 /* MyPlayground.playground */,
 				DA8A9E2024486BAC001D1E16 /* LaunchScreen.storyboard */,
 				DA8A9E2324486BAC001D1E16 /* Info.plist */,
 			);
@@ -127,6 +182,7 @@
 			files = (
 				DA8A9E2224486BAC001D1E16 /* LaunchScreen.storyboard in Resources */,
 				DA8A9E1F24486BAC001D1E16 /* Assets.xcassets in Resources */,
+				DA603E35244B2A8A006942A2 /* AdicionarItensViewController.xib in Resources */,
 				DA8A9E1D24486B7D001D1E16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +194,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA603E37244BA072006942A2 /* Alerta.swift in Sources */,
+				DA3CC4FD2449C6C000B36C8A /* Item.swift in Sources */,
 				DA8A9E1A24486B7C001D1E16 /* ViewController.swift in Sources */,
+				DA06FD0F244BDEF700BC5E1B /* RemoveRefeicaoViewController.swift in Sources */,
+				DA2D83F4244C8A29002374A4 /* ItemDao.swift in Sources */,
+				DA2D83F2244C7E57002374A4 /* RefeicaoDao.swift in Sources */,
+				DA603E34244B2A89006942A2 /* AdicionarItensViewController.swift in Sources */,
 				DA8A9E1624486B7C001D1E16 /* AppDelegate.swift in Sources */,
+				DA3CC5422449F78500B36C8A /* RefeicoesTableViewController.swift in Sources */,
 				DA8A9E1824486B7C001D1E16 /* SceneDelegate.swift in Sources */,
+				DA3CC4FB2449C45500B36C8A /* Refeicao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "eggplant-brownie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "eggplant-brownie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
