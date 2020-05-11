@@ -25,7 +25,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="Gif do projeto" title="#gitproject" src="./.github/gifsimul.gif" width="200px">
+    <img alt="Gif do projeto" title="#gitproject" src="./.github/gifsimul.gif" width="250px">
 </h1>
 
 ## 📚 Project 
